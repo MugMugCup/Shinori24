@@ -1,0 +1,29 @@
+body
+{
+    margin: 0;
+    background-image: url("img/sky.png");
+    background-repeat: no-repeat;
+
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+}
+
+img
+{
+    position: absolute;
+}
+
+#land
+{
+    height: 934px;
+    top: 60px;
+    left: 510px;
+}
+
+#ship
+{
+    top: 700px;
+    left: 1930px;
+}
+
