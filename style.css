@@ -1,17 +1,34 @@
+@font-face
+{
+    /*
+    font-family: "digikyo";
+    src: url("font/UDDigiKyokashoN-B-01.ttf");
+    */
+
+    font-family: "otsutome";
+    src: url("font/OtsutomeFont_Ver3_15.ttf");
+}
+
 body
 {
     margin: 0;
     background-image: url("img/sky.png");
     background-repeat: no-repeat;
-
     width: 100%;
-    position: relative;
     overflow-x: hidden;
+    font-family: "otsutome";
+    color: #4b4b4b;
 }
 
-img
+img, p
 {
     position: absolute;
+}
+
+#sea
+{
+    top: 0;
+    left: 0;
 }
 
 #land
@@ -27,3 +44,76 @@ img
     left: 1930px;
 }
 
+#frame
+{
+    height: 876px;
+
+    top: 50%;
+    left: 50%;
+    margin: auto;
+    transform: translateX(-50%) translateY(-50%);
+
+    opacity: 0.95;
+}
+
+#talk
+{
+    height: 60px;
+    top: 20%;
+    left: 26%;
+}
+
+#text1
+{
+    top: 16.6%;
+    left: 26.4%;
+    font-size: 2.5vw;
+    text-decoration: underline;
+}
+
+#text2
+{
+    top: 33%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    font-size: 3.6vw;
+}
+
+#text3
+{
+    top: 53%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    font-size: 2.6vw;
+    line-height: 6.3vw;
+    text-align: center;
+}
+
+#man1
+{
+    height: 183px;
+    top: 65%;
+    left: 24%;
+}
+
+#man2
+{
+    height: 183px;
+    top: 65%;
+    left: 66%;
+}
+
+#bird
+{
+    height: 112px;
+    top: 23%;
+    left: 66%;
+    transform: scale(-1, 1);
+}
+
+#event
+{
+    display: none;
+}
